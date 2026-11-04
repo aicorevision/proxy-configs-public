@@ -11,10 +11,10 @@ This repository contains the public Surge strategy template and application rout
 
 ## Applications and order
 
-Apple Intelligence and local direct exceptions are evaluated first. AI rules precede Google rules so dedicated AI traffic keeps its policy. The main applications are Apple, AI, YouTube, Google, Microsoft, BiliBili, Netflix, Disney, HBO, TikTok, Telegram, Steam, Epic, Xbox, PlayStation, Cryptocurrency, and GlobalScholar. Unmatched foreign services use `ForeignMedia`; China and local direct rules have separate lists. The final policy is `漏网之鱼`.
+Local direct exceptions are evaluated first. Apple Intelligence exceptions are merged into `Apple.list`, and AI rules precede Google rules so dedicated AI traffic keeps its policy. The main applications are Apple, AI, YouTube, Google, Microsoft, BiliBili, Netflix, Disney, HBO, TikTok, Telegram, Steam, Epic, Xbox, PlayStation, Cryptocurrency, and GlobalScholar. Unmatched foreign services use `ForeignMedia`; China and local direct rules have separate lists. The final policy is `漏网之鱼`.
 
 Each application group offers automatic selection, manual selection, Hong Kong, US, Japan, Taiwan, Singapore, static IP, and direct routing. The runtime's `[Proxy]` section supplies the actual nodes. A public profile alone has no purchased nodes.
 
-The merged catalog currently has 21 categories and 5,165 unique matchers. It retains custom process, IP, and domain rules not covered by the selected upstream sets. GitHub Actions checks the upstream sources daily; when a check reports drift, review the diff and run `python3 scripts/sync_rules.py --write` to publish an updated snapshot.
+The merged catalog currently has 20 categories with no duplicate exact matchers. It retains custom process, IP, and domain rules not covered by the selected upstream sets. GitHub Actions checks the upstream sources daily; when a check reports drift, review the diff and run `python3 scripts/sync_rules.py --write` to publish an updated snapshot.
 
 The airport issues short-lived links, so the private node snapshot is refreshed only when a valid link is available. An unsuccessful refresh preserves the last working private profile.

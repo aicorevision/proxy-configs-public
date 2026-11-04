@@ -1,3 +1,8 @@
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-KEYWORD,siri
+DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-KEYWORD,apple
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co

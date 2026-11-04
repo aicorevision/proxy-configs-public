@@ -11,10 +11,9 @@ from urllib.request import urlopen
 ROOT = Path(__file__).resolve().parents[1] / "Surge"
 UPSTREAM = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge"
 SOURCES = {
-    "AppleIntelligence": [],
     "LocalDirect": [],
-    "AI": ["OpenAI", "Claude", "Gemini"],
     "Apple": ["Apple"],
+    "AI": ["OpenAI", "Claude", "Gemini"],
     "YouTube": ["YouTube"],
     "Google": ["Google"],
     "Microsoft": ["Microsoft"],
