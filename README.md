@@ -5,7 +5,9 @@ This repository contains the public Surge strategy template and application rout
 ## Layout
 
 - `Surge/CoreVision_Surge.conf`: original `[General]` settings, application policy groups, and the ordered `[Rule]` references. The former `routing.dconf` has been merged into this file.
-- `Surge/rules/*.list`: custom matchers classified by application or function. Maintained public upstream sets are linked directly from the main profile.
+- `Surge/custom/*.list`: original custom matchers, kept as the editable source.
+- `Surge/rules/*.list`: merged application rule files. The main profile references only these files in this repository.
+- `scripts/sync_rules.py`: downloads the selected blackmatrix7 Surge lists, merges them with the custom source, removes exact duplicates and domain rules covered by a broader suffix in the same category, and writes the merged lists with `--write`.
 
 ## Applications and order
 
@@ -13,6 +15,6 @@ Apple Intelligence and local direct exceptions are evaluated first. AI rules pre
 
 Each application group offers automatic selection, manual selection, Hong Kong, US, Japan, Taiwan, Singapore, static IP, and direct routing. The runtime's `[Proxy]` section supplies the actual nodes. A public profile alone has no purchased nodes.
 
-The rule migration deduplicated exact local matchers, removed custom app matchers already covered by the same application's maintained public set, and retained custom process, IP, and domain rules that the upstream sets did not cover. When an upstream set changes, review overlaps before changing the custom lists.
+The merged catalog currently has 21 categories and 5,165 unique matchers. It retains custom process, IP, and domain rules not covered by the selected upstream sets. GitHub Actions checks the upstream sources daily; when a check reports drift, review the diff and run `python3 scripts/sync_rules.py --write` to publish an updated snapshot.
 
 The airport issues short-lived links, so the private node snapshot is refreshed only when a valid link is available. An unsuccessful refresh preserves the last working private profile.

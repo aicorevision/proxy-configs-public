@@ -1,0 +1,82 @@
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,openrouter.ai
+PROCESS-NAME,claude.exe
+PROCESS-NAME,claude
+DOMAIN-SUFFIX,anthropic.systems
+DOMAIN-SUFFIX,claude-code.com
+DOMAIN,api2.cursor.sh
+DOMAIN-SUFFIX,api2.cursor.sh
+DOMAIN,api3.cursor.sh
+DOMAIN-SUFFIX,api3.cursor.sh
+DOMAIN,api4.cursor.sh
+DOMAIN-SUFFIX,api4.cursor.sh
+DOMAIN,repo42.cursor.sh
+DOMAIN-SUFFIX,repo42.cursor.sh
+DOMAIN,us-asia.gcpp.cursor.sh
+DOMAIN-SUFFIX,us-asia.gcpp.cursor.sh
+DOMAIN,us-eu.gcpp.cursor.sh
+DOMAIN-SUFFIX,us-eu.gcpp.cursor.sh
+DOMAIN,us-only.gcpp.cursor.sh
+DOMAIN-SUFFIX,us-only.gcpp.cursor.sh
+DOMAIN,marketplace.cursorapi.com
+DOMAIN-SUFFIX,marketplace.cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN,download.todesktop.com
+DOMAIN-SUFFIX,download.todesktop.com
+DOMAIN-SUFFIX,cursor.sh
+PROCESS-NAME,Antigravity
+PROCESS-NAME,Antigravity.exe
+PROCESS-NAME,language_server
+PROCESS-NAME,"Antigravity Helper"
+PROCESS-NAME,"Antigravity Helper (Renderer)"
+PROCESS-NAME,"Antigravity Helper (Plugin)"
+PROCESS-NAME,"Antigravity Helper (GPU)"
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,play.googleapis.com
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,generativeai.googleapis.com
+PROCESS-NAME,Cursor.exe
+PROCESS-NAME,Cursor
+PROCESS-NAME,"Cursor Helper"
+PROCESS-NAME,"Cursor Helper (Renderer)"
+PROCESS-NAME,"Cursor Helper (Plugin)"
+PROCESS-NAME,"Cursor Helper (GPU)"
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN,gateway.ai.cloudflare.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN,jules.google.com
+DOMAIN,api.github.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN,api.jetbrains.ai
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,x.ai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,perplexity
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,copilot
+DOMAIN,copilot.microsoft.com
+DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net

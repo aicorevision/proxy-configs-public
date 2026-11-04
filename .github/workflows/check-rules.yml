@@ -1,0 +1,22 @@
+name: Check upstream rule changes
+on:
+  schedule:
+    - cron: '0 1 * * *' # 09:00 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    paths:
+      - 'Surge/custom/**'
+      - 'Surge/rules/**'
+      - 'scripts/sync_rules.py'
+      - '.github/workflows/check-rules.yml'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/sync_rules.py
