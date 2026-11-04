@@ -30,8 +30,6 @@ DOMAIN-SUFFIX,dizhensubao.getui.com
 DOMAIN,dl.google.com
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 DOMAIN,origin-a.akamaihd.net
-DOMAIN,livew.l.qq.com
-DOMAIN,vd.l.qq.com
 DOMAIN,analytics.strava.com
 DOMAIN,msg.umeng.com
 DOMAIN,app.adjust.com
@@ -406,7 +404,6 @@ DOMAIN-SUFFIX,cn163.net
 DOMAIN-SUFFIX,cnbeta.com
 DOMAIN-SUFFIX,cnbetacdn.com
 DOMAIN-SUFFIX,cnblogs.com
-DOMAIN-SUFFIX,cnki.net
 DOMAIN-SUFFIX,cnmstl.net
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
@@ -910,3 +907,7 @@ IP-CIDR,101.198.196.0/22,no-resolve
 IP-CIDR,101.198.200.0/21,no-resolve
 IP-CIDR,101.198.208.0/20,no-resolve
 GEOIP,CN
+DOMAIN-KEYWORD,-cn
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker

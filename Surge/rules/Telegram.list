@@ -1,4 +1,5 @@
 IP-CIDR,95.161.64.0/20,no-resolve
+PROCESS-NAME,Telegram.exe
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,cdn-telegram.org
