@@ -2,8 +2,6 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,openrouter.ai
 PROCESS-NAME,claude.exe
 PROCESS-NAME,claude
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.systems
 DOMAIN-SUFFIX,claude-code.com
 DOMAIN,api2.cursor.sh
@@ -42,7 +40,6 @@ DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,aiplatform.googleapis.com
 DOMAIN-SUFFIX,generativeai.googleapis.com
 PROCESS-NAME,Cursor.exe
@@ -51,11 +48,7 @@ PROCESS-NAME,"Cursor Helper"
 PROCESS-NAME,"Cursor Helper (Renderer)"
 PROCESS-NAME,"Cursor Helper (Plugin)"
 PROCESS-NAME,"Cursor Helper (GPU)"
-DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN,ai.google.dev
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN,gateway.ai.cloudflare.com
@@ -63,9 +56,7 @@ DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,gemini.google.com
 DOMAIN,jules.google.com
-DOMAIN-SUFFIX,bard.google.com
 DOMAIN,api.github.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
@@ -74,7 +65,6 @@ DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.jetbrains.ai
@@ -83,16 +73,10 @@ DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,x.ai
-DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,perplexity
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,copilot
 DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
 DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
