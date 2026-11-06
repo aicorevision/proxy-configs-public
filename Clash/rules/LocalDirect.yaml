@@ -43,7 +43,6 @@ payload:
 - DOMAIN-SUFFIX,apple.com.cn
 - DOMAIN,np-edge.itunes.apple.com
 - DOMAIN,play-edge.itunes.apple.com
-- DOMAIN,gspe1-ssl.ls.apple.com
 - DOMAIN-KEYWORD,map
 - DOMAIN-SUFFIX,apple.co
 - DOMAIN-SUFFIX,blasphemy4985.com
